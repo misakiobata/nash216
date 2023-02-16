@@ -8,7 +8,7 @@ python3 -m venv venv
 ## .gitignore
 .gitignoreのファイルを作成し，その中にvenvを追加する
 
-#　venvの起動
+##　venvの起動
 ```
 source venv/bin/activate.fish
 ```
@@ -19,4 +19,9 @@ deactivate
 何が入ってるかを探し書き出す
 ```
 pip freeze > requirements.py
+```
+
+## requirements.txtをいんすトール
+```
+pip install -r requirements.txt
 ```
